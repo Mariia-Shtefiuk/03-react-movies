@@ -1,13 +1,13 @@
 import styles from "./SearchBar.module.css";
 import toast from "react-hot-toast";
-import { FormEvent, ReactElement } from "react";
+import { FormEvent } from "react";
 
 interface SearchBarProps {
   onSubmit: (query: string) => void;
 }
 
 export default function SearchBar({ onSubmit }: SearchBarProps) {
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
     const query = (formData.get("query") as string).trim();

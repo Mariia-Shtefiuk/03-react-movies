@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useState } from "react";
 import { Toaster, toast } from "react-hot-toast";
 import SearchBar from "../SearchBar/SearchBar";

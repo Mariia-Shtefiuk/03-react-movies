@@ -1,4 +1,3 @@
-import React from "react";
 import css from "./MovieGrid.module.css";
 import { Movie } from "../../types/movies";
 
