@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Movie } from "../types/movies";
+import { Movie } from "../types/movie";
 
 const API_KEY = import.meta.env.VITE_TMDB_TOKEN;
 const BASE_URL = "https://api.themoviedb.org/3";

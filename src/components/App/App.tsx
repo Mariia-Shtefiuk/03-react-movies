@@ -5,7 +5,7 @@ import MovieGrid from "../MovieGrid/MovieGrid";
 import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import { fetchMovies } from "../../services/movieService";
-import { Movie } from "../../types/movies";
+import { Movie } from "../../types/movie";
 import MovieModal from "../MovieModal/MovieModal";
 
 export default function App() {
